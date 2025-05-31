@@ -1,0 +1,19 @@
+Task 2: Create an App Service Plan, Provision a Web App, and Deploy a Welcome Page
+
+1.App Service Plan & Web App
+2.Opened Azure Portal → Searched for App Services → Clicked Create.
+
+3.Selected the resource group and created a new App Service Plan.
+
+4.Gave a name to the Web App and selected runtime stack (like .NET or Node.js).
+
+5.Clicked Review + create → then Create.
+
+ Deploy Welcome Page
+1.After the Web App was deployed, went to the Deployment Center.
+
+2.Chose Local Git or Zip Deploy method.
+
+3.Uploaded a simple HTML file with a welcome message.
+
+4.Accessed the web app URL to verify the page was live.

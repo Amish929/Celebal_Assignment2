@@ -1,0 +1,17 @@
+Task 3: Create ACR, Pull Image from ACR, and Create a Container from It
+
+1.Create Azure Container Registry (ACR)
+2.Opened Azure Portal → Searched for Container Registry → Clicked Create.
+
+3.Gave a name to the registry and selected SKU as Basic.
+
+4.Clicked Review + create → then Create.
+
+Create Container from ACR Image
+1.Searched for Container Instances → Clicked Create.
+
+2.Selected the ACR image in the container settings.
+
+3.Set DNS name label and clicked Create.
+
+4.Verified the container was running by accessing the DNS.
