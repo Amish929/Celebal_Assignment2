@@ -1,0 +1,19 @@
+Task 7: Create and Test Azure Application Gateway
+
+🔹 Create Application Gateway
+1.Searched for Application Gateway → Clicked Create.
+
+2.Selected Standard V2, created a new public IP, and added a frontend IP.
+
+3.Created a backend pool with VMs running web apps.
+
+4.Set up health probe and HTTP listener.
+
+5.Created a basic routing rule pointing to the backend pool.
+
+🔹 Test Application Gateway
+1.After deployment, copied the public IP of the gateway.
+
+2.Opened it in the browser to check if it routed traffic to the backend VMs.
+
+3.Verified load balancing and health probe status.

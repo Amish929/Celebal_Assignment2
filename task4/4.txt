@@ -1,0 +1,20 @@
+Task 4: Create Container Instance, Deploy Docker App, Create Container Groups, and Test Functionality
+
+🔹 Create Container Instance
+1.Opened Azure Portal → Searched for Container Instances → Clicked Create.
+
+2.Chose a resource group, gave a name, and used a public Docker image (like nginx or custom image from ACR).
+
+3.Set port (e.g., 80), DNS name label, and clicked Create.
+
+🔹 Create Container Group
+1.In the same section, created a container group by adding multiple containers under the same instance.
+
+2.Used custom image(s) or public images and assigned different ports.
+
+3.Verified all containers were running in the group.
+
+Test Functionality
+1.Opened the container's public DNS in the browser.
+
+2.Verified the app was accessible and running as expected.

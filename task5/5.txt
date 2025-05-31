@@ -1,0 +1,39 @@
+Task 5: Create a VNet with 2 Subnets and 4 More VNets (Hub-and-Spoke Architecture)
+
+🔹 A. Create a VNet with 2 Subnets
+1.Opened Azure Portal → Searched for Virtual Networks → Clicked Create.
+
+2.Created a VNet (e.g., MainVNet) and added two subnets:
+
+3.Subnet-1: For Linux & Windows VMs
+
+4.Subnet-2: For SQL DB
+
+5.Completed the setup and deployed Linux & Windows VMs in Subnet-1.
+
+ B. Create 4 Separate VNets
+1.Created the following VNets one by one:
+
+2.Management VNet (Hub)
+
+3.Production VNet
+
+4.Testing VNet
+
+5.Development VNet
+
+6.Configured address ranges to avoid overlap.
+
+🔹 Configure Hub-and-Spoke Architecture
+1.Set up VNet peering from each spoke VNet (Prod, Test, Dev) to the Management VNet.
+
+2.Enabled Allow forwarded traffic and Use remote gateway in peering settings.
+
+3.Created one VM in each VNet.
+
+🔹 Verify Connectivity
+1.Logged into the VM in the Management VNet.
+
+2.Pinged all other VMs from it using their private IPs.
+
+3.Confirmed connectivity was successful.

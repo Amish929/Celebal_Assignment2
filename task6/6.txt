@@ -1,0 +1,19 @@
+Task 6: Create an Internal and External Load Balancer
+
+🔹 Internal Load Balancer
+1.Opened Azure Portal → Searched for Load Balancer → Clicked Create.
+
+2.Chose Internal type and selected the existing VNet and subnet.
+
+3.Added a backend pool with 2 Linux VMs.
+
+4.Created a health probe (TCP on port 80) and load balancing rule.
+
+🔹 External Load Balancer
+1.Repeated the same steps but selected Public load balancer.
+
+2.Attached 2 public-facing VMs to the backend pool.
+
+3.Configured health probe and rule (HTTP/port 80).
+
+4.After creation, accessed the Public IP to verify load balancing.
