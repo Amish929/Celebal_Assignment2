@@ -1,0 +1,58 @@
+Task 9: Create a Storage account and explore all the option while creating Upload and access the blob Go through different Auth. Tech and test the same Try Azure storage explorer Provision Access keys and use them for connection with storage account Create a Shared access signature and check access scope Create a stored access policy over shared access signature and check access scope Learn about different access tiers and their use cases Apply lifecycle policy over objects and test the same test object replication in blob Create a file share and test functionality Create a Azure File sync
+
+🔹 Create Storage Account
+1.Opened Azure Portal → Searched Storage Accounts → Clicked Create.
+
+2.Selected resource group, region, performance tier, and redundancy option.
+
+3.Created the storage account.
+
+🔹 Upload and Access Blob
+1.Opened the storage account → went to Containers → created a container.
+
+2.Uploaded files (blobs) to the container.
+
+3.Accessed the blobs via URL or Azure Storage Explorer.
+
+🔹 Explore Authentication Methods
+1.Tested Access Keys and Shared Access Signatures (SAS) for authentication.
+
+2.Created SAS tokens with specific permissions and expiry.
+
+3.Verified access scope and restrictions.
+
+🔹 Create Stored Access Policy
+1.Created stored access policy on the container.
+
+2.Linked SAS tokens to the policy.
+
+3.Tested SAS with stored access policy to verify scope control.
+
+🔹 Access Tiers
+1.Explored Hot, Cool, and Archive access tiers in the storage account.
+
+2.Changed blob access tier to test cost and retrieval options.
+
+🔹 Lifecycle Policy
+1.Created a lifecycle management policy to move blobs between tiers automatically.
+
+2.Applied policy to blobs and verified automated tier changes.
+
+🔹 Object Replication
+1.Enabled blob replication between storage accounts in different regions.
+
+2.Uploaded blobs to primary and confirmed replication.
+
+🔹 File Share
+1.Created an Azure File Share.
+
+2.Mounted it on a VM using SMB protocol.
+
+3.Tested file upload and access from the VM.
+
+🔹 Azure File Sync
+1.Configured Azure File Sync service.
+
+2.Registered server and created sync group.
+
+3.Verified synchronization of files between server and Azure File Share.

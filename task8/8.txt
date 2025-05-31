@@ -1,0 +1,20 @@
+Task 8: Set Up a Domain, Configure a Server on VM, and Use DNS Server for Traffic
+
+🔹 Set Up Domain and DNS
+1.Purchased or used an existing domain from a registrar.
+
+2.In Azure Portal, configured a DNS zone matching the domain name.
+
+3.Created A record pointing to the VM’s public IP.
+
+🔹 Configure Server on VM
+1.Connected to the VM (Linux/Windows).
+
+2.Installed web server (e.g., Apache, Nginx, or IIS).
+
+3.Placed a simple website or welcome page on the server.
+
+🔹 Use DNS for Traffic
+1.Accessed the domain URL in the browser.
+
+2.Verified the traffic correctly resolved to the VM’s web server.
