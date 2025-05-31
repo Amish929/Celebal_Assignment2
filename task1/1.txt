@@ -1,0 +1,23 @@
+Task 1: Deploy Linux and Windows Virtual Machines and Access Them Using SSH and RDP
+
+Linux VM (SSH)
+1.Opened Azure Portal → Created a new Virtual Machine.
+
+2.Chose Ubuntu as the image and enabled SSH (port 22).
+
+3.Set username and password, then created the VM.
+
+4.After deployment, used the public IP to connect via SSH in terminal
+5.Logged in successfully.
+
+
+Windows VM (RDP)
+1.Created another Virtual Machine, this time with Windows Server 2019.
+
+2.Enabled RDP (port 3389) during setup.
+
+3.After deployment, copied the public IP.
+
+4.Used Remote Desktop Connection (RDP) to connect to the Windows VM.
+
+5.Logged into the VM using set credentials.
